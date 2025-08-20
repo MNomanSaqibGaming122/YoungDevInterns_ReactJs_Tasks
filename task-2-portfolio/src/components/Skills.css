@@ -1,0 +1,31 @@
+.skills-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skill-card {
+  background-color: rgba(31, 41, 55, 0.7);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.skill-bar {
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+  height: 0.8rem; /* slightly taller bar */
+}
+
+.skill-fill {
+  border-radius: 1rem;
+}
