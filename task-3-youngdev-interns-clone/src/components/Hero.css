@@ -1,0 +1,141 @@
+.hero-container {
+  position: relative;
+  height: 70vh; 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: start;
+  color: white;
+  margin-top: 5px;
+  
+}
+
+.background-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1.5s ease-in-out; 
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: -1;
+}
+
+.hero-content {
+  max-width: 730px;
+  padding: 0 2rem 2rem;
+  background-color: rgba(51, 51, 51, 0.7);
+  border-radius: 10px;
+  margin-left: 13rem;
+  margin-bottom: 5rem;
+     
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.btn-primary:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.btn-secondary:hover {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.stats-bar {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e2e8f0;
+  color: #333333;
+  padding: 1.5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.stat-item {
+  text-align: center;
+  border-right: #777 1px solid ;
+  padding-right: 60px;
+  
+  
+  
+}
+
+.stat-item h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+  
+}
+
+.stat-item p {
+  margin: 0;
+  color: #777;
+  text-transform: capitalize;
+}
+
+.page-content {
+  padding-top: 100px; 
+  
+}

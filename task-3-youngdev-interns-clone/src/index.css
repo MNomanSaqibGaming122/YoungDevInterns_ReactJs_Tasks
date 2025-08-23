@@ -1,0 +1,33 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --navbar-bg: #ffffff;
+  --navbar-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --link-color: #555555;
+  --link-hover-color: #007bff;
+  --hero-bg: #f4f7f6;
+}
+
+
+.dark-mode {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --navbar-bg: #0d1117; 
+  --navbar-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  --link-color: #ffffff;   
+  --link-hover-color: #ffffff; 
+  --hero-bg: #1e1e1e;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

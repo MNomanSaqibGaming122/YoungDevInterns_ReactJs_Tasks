@@ -1,0 +1,8 @@
+.divider-line {
+  height: 2px;
+  background-color: rgb(44, 24, 192);
+  margin: 2rem 0;
+  border-bottom: 10px solid black;
+  border-bottom-width: 10px;
+  border-color: black;
+}

@@ -1,0 +1,26 @@
+.floating-action-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background-color: transparent; 
+  border-radius: 50%; 
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.floating-action-button:hover {
+  transform: scale(1.1); 
+}
+
+.floating-action-button img {
+  width: 35px; 
+  height: 35px;
+}
