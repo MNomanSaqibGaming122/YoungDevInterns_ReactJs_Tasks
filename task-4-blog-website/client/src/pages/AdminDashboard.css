@@ -1,0 +1,109 @@
+/* AdminDashboard.css */
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.dashboard-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.posts-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.posts-table th,
+.posts-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.table-header {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.posts-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.posts-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.edit-link {
+  display: inline-block;
+  margin-right: 10px;
+  width: 200px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.edit-link:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  width: 200px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #a71d2a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .edit-link,
+  .delete-button {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+}

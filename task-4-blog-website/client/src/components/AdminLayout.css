@@ -1,0 +1,65 @@
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
+}
+
+.admin-sidebar {
+  width: 16rem; /* Equivalent to w-64 */
+  background-color: #1f2937; /* Equivalent to bg-gray-800 */
+  color: #ffffff;
+  padding: 1rem; /* Equivalent to p-4 */
+}
+
+.sidebar-title {
+  font-size: 1.5rem; /* Equivalent to text-2xl */
+  font-weight: 700; /* Equivalent to font-bold */
+  margin-bottom: 2rem; /* Equivalent to mb-8 */
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 1rem; /* Equivalent to mb-4 */
+}
+
+.sidebar-nav a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.sidebar-nav a:hover {
+  color: #93c5fd; /* Equivalent to hover:text-blue-300 */
+}
+
+.logout-item {
+  margin-top: 2rem; /* Equivalent to mt-8 */
+}
+
+.logout-button {
+  background-color: #ef4444; /* Equivalent to bg-red-500 */
+  color: white;
+  width: 100%;
+  padding-top: 0.5rem; /* Equivalent to py-2 */
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem; /* Equivalent to rounded */
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.logout-button:hover {
+  background-color: #dc2626; /* Equivalent to hover:bg-red-600 */
+}
+
+.admin-content {
+  flex: 1 1 0%; /* Equivalent to flex-1 */
+  padding: 2rem; /* Equivalent to p-8 */
+}
+

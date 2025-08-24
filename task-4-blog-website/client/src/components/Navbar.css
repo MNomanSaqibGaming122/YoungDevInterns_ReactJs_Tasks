@@ -1,0 +1,26 @@
+.navbar-container {
+  background: #333;
+  color: white;
+  padding: 1rem 5%; /* Using percentage for better responsiveness */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem; /* Use margin-left to space out items */
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #a0d2eb; /* A light blue hover effect */
+}
