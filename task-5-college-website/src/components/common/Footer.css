@@ -1,0 +1,84 @@
+.footer-custom {
+  background-color: #0a192f; 
+  color: #8892b0; 
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.footer-custom h5 {
+  color: #64ffda; 
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.campus-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.footer-links li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+  color: #8892b0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #64ffda;
+  padding-left: 5px; 
+}
+
+.social-icons a {
+  color: #ccd6f6;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #64ffda;
+  transform: translateY(-3px); 
+}
+
+.footer-divider {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom-row {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.copyright-text {
+  font-size: 0.85rem;
+}
+
+.bottom-nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .bottom-nav-links {
+    justify-content: flex-end;
+  }
+}
+
+
+.bottom-nav-links a {
+  color: #8892b0;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.3s ease;
+}
+
+.bottom-nav-links a:hover {
+  color: #64ffda;
+}

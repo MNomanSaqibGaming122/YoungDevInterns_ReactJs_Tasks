@@ -1,0 +1,22 @@
+.academics-hero {
+  background: url('../assets/images/academics-bg.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 40vh;
+  position: relative;
+  color: white;
+}
+
+.academics-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.academics-hero h1, .academics-hero p {
+  z-index: 1;
+  position: relative;
+}

@@ -1,0 +1,22 @@
+
+.news-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: none;
+  border-radius: 10px; 
+}
+
+.news-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.news-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news-card .card-footer {
+  background-color: transparent;
+  border-top: none;
+}

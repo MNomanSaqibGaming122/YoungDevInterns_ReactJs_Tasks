@@ -1,0 +1,24 @@
+.admissions-hero {
+  background: url('../assets/images/admissions-bg.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  position: relative;
+  color: white;
+
+}
+
+.admissions-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.admissions-hero h1, .admissions-hero p {
+  z-index: 1;
+  position: relative;
+}

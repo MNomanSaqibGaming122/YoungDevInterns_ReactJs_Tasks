@@ -1,0 +1,76 @@
+.custom-navbar {
+  background-color: rgba(10, 25, 47, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.75rem 0;
+  font-family: 'Poppins', sans-serif; 
+}
+
+
+.navbar-brand-custom {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff !important; 
+}
+
+.futuristic-word {
+  color: #39ff14 !important; 
+  transition: all 0.3s ease-in-out;
+}
+
+.futuristic-word:hover {
+  color: #00e000 !important; 
+  text-shadow: 0 0 5px #39ff14; 
+}
+
+.nav-link-custom {
+  color: #ccd6f6 !important; 
+  font-weight: 500;
+  margin: 0 0.75rem;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link-custom::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #64ffda;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link-custom:hover::after {
+  width: 100%;
+}
+
+.nav-link-custom:hover {
+  color: #64ffda !important; 
+}
+
+.admin-login-btn {
+  color: #64ffda !important;
+  border: 1px solid #64ffda;
+  padding: 0.5rem 1rem !important;
+  border-radius: 5px;
+  margin-left: 1rem;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.admin-login-btn:hover {
+  background-color: rgba(100, 255, 218, 0.1);
+  color: #64ffda !important;
+}
+
+.navbar-toggler {
+  border-color: rgba(100, 255, 218, 0.7);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(100, 255, 218, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
